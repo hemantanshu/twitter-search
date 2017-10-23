@@ -1,0 +1,26 @@
+{
+  "name": "hemantanshu/twitter-search",
+  "description": "A PHP-SDK for Twitter Search API",
+  "keywords": [
+    "twitter search",
+    "search"
+  ],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hemant Sah",
+      "email": "hemantanshu@gmail.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twitter\\": "Twitter/"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev"
+}
